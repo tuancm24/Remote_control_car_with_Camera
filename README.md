@@ -9,38 +9,39 @@
   <img src="https://img.shields.io/badge/Made%20by-tuancm24 & team-green" />
 </p>
 
+[Click here for the **Vietnamese version**](README.vi.md)
 
-# 🚗 Xe Điều Khiển Từ Xa Qua WiFi Có Gắn Camera
-## 🎯 Những gì tôi học được qua dự án
+# 🚗 Remote Car with Camera via WiFi
+## 🎯 What I learned from this project
 
-Thông qua quá trình thực hiện dự án này, tôi đã học và rèn luyện được nhiều kỹ năng thực tiễn quan trọng, bao gồm:
+Through the process of completing this project, I have learned and practiced many important practical skills, including:
 
-- 🧠 **Lập trình hệ thống nhúng**: Làm việc với vi điều khiển ESP32 và Arduino để điều khiển động cơ, xử lý dữ liệu từ cảm biến.
-- 🌐 **Thiết lập giao tiếp mạng**: Dự án sử dụng WebSocket để truyền lệnh điều khiển xe từ giao diện web đến Arduino một cách nhanh và mượt. Đồng thời, camera ESP32-CAM truyền video trực tiếp lên cùng giao diện thông qua kết nối WiFi. Tất cả chức năng được hiển thị trên một trang web duy nhất, có thể truy cập và điều khiển dễ dàng từ cả máy tính lẫn điện thoại.
-- 🎨 **Thiết kế giao diện web**: Xây dựng trang điều khiển xe thân thiện với người dùng bằng HTML, CSS và JavaScript.
-- 📡 **Xử lý tín hiệu và cảm biến**: Đọc dữ liệu từ cảm biến khoảng cách, encoder và cảm biến dòng INA219 để phân tích hoạt động của xe.
-- 🔄 **Kết nối phần cứng – phần mềm**: Tích hợp các module linh kiện thành một hệ thống hoàn chỉnh.
-- 🧩 **Giải quyết vấn đề thực tế**: Debug, kiểm thử, tối ưu chương trình và xử lý lỗi trong quá trình triển khai thực tế.
-- 👥 **Kỹ năng làm việc nhóm**: Tham gia với vai trò Team Leader, cùng các thành viên phát triển dự án. Dự án đạt điểm cao nhất trong môn học và có thể được nâng cấp thêm nhiều tính năng mới trong tương lai.
+- 🧠 **Embedded system programming**: Working with ESP32 and Arduino to control motors, process data from sensors.
+- 🌐 **Setting up network communication**: The project uses WebSocket to transmit control commands from the web interface to Arduino in a fast and smooth manner. At the same time, the ESP32-CAM camera streams live video to the same interface via WiFi. All functions are displayed on a single web page, which can be easily accessed and controlled from both computers and mobile devices.
+- 🎨 **Web interface design**: Creating a user-friendly control page for the car using HTML, CSS, and JavaScript.
+- 📡 **Signal processing and sensors**: Reading data from distance sensors, encoders, and INA219 current sensors to analyze the car’s performance.
+- 🔄 **Hardware and software integration**: Integrating various components into a complete system.
+- 🧩 **Real-world problem-solving**: Debugging, testing, optimizing the program, and handling issues during real-world deployment.
+- 👥 **Teamwork skills**: Participating as a Team Leader and working with teammates to develop the project. The project achieved the highest score in the class and can be further developed with new features in the future.
 
-> Dự án không chỉ giúp tôi hiểu rõ hơn về hoạt động của thiết bị IoT, mà còn rèn luyện khả năng kết nối phần cứng và phần mềm để tạo nên một sản phẩm hoàn chỉnh, có tính ứng dụng thực tế cao.
+> This project not only helped me understand how IoT devices work but also trained my ability to connect hardware and software to create a complete, practical product.
 
-## 🔥 Tính năng nổi bật
+## 🔥 Key Features
 
-- 📷 Truyền hình ảnh trực tiếp từ camera (ESP32-CAM)
-- 🕹️ Điều khiển xe từ xa qua giao diện web (tự phát triển giao diện)
-- 🌐 Kết nối và điều khiển qua WiFi, không cần dây cáp
-- 📱 Giao diện điều khiển thân thiện, có thể sử dụng trên cả điện thoại và máy tính
+- 📷 Live video streaming from the camera (ESP32-CAM)
+- 🕹️ Remote control of the car via a custom-built web interface
+- 🌐 Wireless connection and control via WiFi, no cables required
+- 📱 User-friendly control interface, usable on both mobile phones and desktops
 
-## 📽️ Video demo
+## 📽️ Demo Video
 
-👉 [Xem video demo tại đây](https://youtu.be/r2lm_pBjEw8)
+👉 [Watch demo video here](https://youtu.be/r2lm_pBjEw8)
 
-## 💼 Mục đích sử dụng
+## 💼 Purpose
 
-Dự án được thiết kế nhằm:
-- Học tập và nghiên cứu về công nghệ IoT
-- Thực hiện đồ án môn học theo hướng thực tiễn
-- Tìm hiểu và tích lũy thêm kiến thức, kỹ năng lập trình và triển khai hệ thống IoT
+This project is designed to:
+- Learn and research IoT technology
+- Serve as a practical course project
+- Gain more knowledge and skills in programming and implementing IoT systems
 
-**⭐ Nếu bạn thấy dự án thú vị, hãy để lại 1 sao (🌟) để ủng hộ nhé!**
+**⭐ If you find this project interesting, please leave a star (🌟) to support!**
